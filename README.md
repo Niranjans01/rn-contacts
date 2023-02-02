@@ -8,6 +8,14 @@ uses native contact picker apis to select and update contacts from react native 
 npm install rn-contacts
 ```
 
+## Add Permissions
+Make sure to add following permissions in [AndroidManifest.xml]
+```sh
+<uses-permission android:name="android.permission.READ_CONTACTS"/>
+<uses-permission android:name="android.permission.WRITE_CONTACTS" />
+<uses-permission android:name="android.permission.READ_PROFILE" />
+```
+
 ## Usage
 
 ```js
