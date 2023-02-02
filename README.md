@@ -11,11 +11,11 @@ npm install rn-contacts
 ## Usage
 
 ```js
-import { multiply } from 'rn-contacts';
+import { requestPermission, openContacts } from 'rn-contacts';
 
 // ...
 
-const result = await multiply(3, 7);
+const permission = await requestPermission(); // Expected return : 'authorized' | 'denied' | 'undefined'
 ```
 
 ## Contributing
