@@ -1,6 +1,9 @@
 # rn-contacts
 
-uses native contact picker apis to select and update contacts from react native based applications
+Uses native contact picker apis to select and update contacts from react native based applications. 
+
+// Disclaimer : This package is underdevelopment how ever following features are currently accessible
+
 
 ## Installation
 
@@ -17,6 +20,7 @@ Make sure to add following permissions in [AndroidManifest.xml]
 ```
 
 ## Usage
+This library is supported in both Android & IOS.
 
 ```js
 import { requestPermission, openContacts } from 'rn-contacts';
