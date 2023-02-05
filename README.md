@@ -1,4 +1,4 @@
-# rn-contacts
+# [rn-contacts](https://www.npmjs.com/package/rn-contacts)
 
 Uses native contact picker apis to select and update contacts from react native based applications. 
 
